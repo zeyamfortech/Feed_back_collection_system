@@ -3,7 +3,7 @@ const express = require("express");
 app = express();
 
 app.get("/", (req, res) => {
-  res.send({ hi: "there" });
+  res.send({ bye: "buddy" });
 });
 
 //if we used deployment(heroku) environment use first and if we are using the development  environment default used 5000
